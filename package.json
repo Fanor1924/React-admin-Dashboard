@@ -1,15 +1,15 @@
 {
-  "name": "React-admin-Dashboard",
+  "name": "ejemploservidor",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fanor1924/React-admin-Dashboard.git",
-    "start": "node server.js"
+    "url": "git+https://github.com/Fanor1924/React-admin-Dashboard.git"
   },
   "keywords": [],
   "author": "Fanor",
@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/Fanor1924/React-admin-Dashboard#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7"
   }
 }
