@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fanor1924/React-admin-Dashboard.git"
+    "url": "git+https://github.com/Fanor1924/React-admin-Dashboard.git",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Fanor",
